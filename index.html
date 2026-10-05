@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Brochures from Safe Gas Systems: medical bulk oxygen, tank monitoring, gas detection, and cryogenic services.">
+<link rel="icon" href="assets/logo.png">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Safe Gas Systems | Brochures and literature</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#25408F;--navy-d:#1B2F6B;--sky:#6FA7C6;--yellow:#FFE600;--ink:#17202E;--muted:#4C5868;--bg:#F1F5F9;--surface:#FFFFFF;--line:#D6E0E9;--frost:#E4EEF5;
+ box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--ink:#EAF0F6;--muted:#B4C1CF;--bg:#0E1729;--surface:#15213A;--line:#2A3A58;--frost:#1A2945}}
+:root[data-theme="dark"]{--ink:#EAF0F6;--muted:#B4C1CF;--bg:#0E1729;--surface:#15213A;--line:#2A3A58;--frost:#1A2945}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:calc(env(safe-area-inset-top,0px) + 16px)}
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'Poppins','Segoe UI',Helvetica,Arial,sans-serif;font-size:16px;line-height:1.6;-webkit-text-size-adjust:100%}
+img{max-width:100%;display:block}
+a{color:inherit}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+.top{background:#fff;border-bottom:4px solid var(--yellow)}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-top:16px;padding-bottom:16px}
+.top img{height:66px;width:auto}
+.tcontact{display:flex;gap:20px;font-size:15px;font-weight:600}
+.tcontact a{color:#25408F;text-decoration:none}
+.tcontact a:hover{text-decoration:underline}
+.hero{background:var(--navy);color:#fff;overflow:hidden;position:relative}
+.hero::after{content:"";position:absolute;right:-120px;top:-60px;width:520px;height:520px;border:56px solid rgba(111,167,198,.22);border-radius:50%;pointer-events:none}
+.hero .wrap{position:relative;z-index:1;padding-top:56px;padding-bottom:56px}
+.hero h1{margin:0;font-size:clamp(32px,5.6vw,58px);line-height:1.06;font-weight:700;letter-spacing:-.6px;max-width:14ch}
+.hero .lede{margin:18px 0 0;font-size:18px;color:#D8E3F5;max-width:52ch}
+.chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:30px}
+.chip{display:inline-block;padding:9px 16px;border-radius:999px;background:rgba(255,255,255,.1);border:1.5px solid rgba(255,255,255,.35);color:#fff;text-decoration:none;font-size:15px;font-weight:500}
+.chip:hover{background:var(--yellow);border-color:var(--yellow);color:#17202E}
+.chip:focus-visible,.btn:focus-visible,.stack:focus-visible,.ed:focus-visible,.tcontact a:focus-visible,.cta:focus-visible{outline:3px solid var(--sky);outline-offset:3px}
+.about{background:var(--surface);border-bottom:1px solid var(--line)}
+.about .wrap{display:grid;grid-template-columns:1.25fr 1fr;gap:48px;padding-top:44px;padding-bottom:44px;align-items:start}
+.about h2{margin:0 0 10px;font-size:24px;font-weight:600}
+.about p{margin:0;color:var(--muted);max-width:60ch}
+.facts{list-style:none;margin:0;padding:0;display:grid;gap:14px}
+.facts li{display:grid;grid-template-columns:12px 1fr;gap:14px;align-items:baseline}
+.facts li::before{content:"";width:12px;height:12px;background:var(--yellow);border-radius:2px;transform:translateY(1px)}
+.facts strong{font-weight:600}
+.facts span{display:block;color:var(--muted);font-size:15px}
+main.wrap{padding-top:20px;padding-bottom:20px}
+.topic{display:grid;grid-template-columns:280px 1fr;gap:48px;padding:48px 0;border-bottom:1px solid var(--line)}
+.topic:last-child{border-bottom:0}
+.tside{position:sticky;top:24px;align-self:start}
+.tside h2{margin:0;font-size:26px;line-height:1.2;font-weight:700;color:var(--ink)}
+.tside h2::before{content:"";display:block;width:44px;height:5px;background:var(--navy);margin-bottom:16px}
+.tside p{margin:10px 0 0;color:var(--muted);font-size:15px}
+.tdocs{display:grid;gap:22px}
+.doc{display:grid;grid-template-columns:200px 1fr;gap:34px;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:26px 30px 26px 26px}
+.stack{position:relative;width:160px;aspect-ratio:612/800;border:0;padding:0;background:none;cursor:pointer}
+.sheet{position:absolute;top:0;left:0;width:100%;height:auto;border-radius:2px;box-shadow:0 1px 2px rgba(23,32,46,.28),0 10px 22px rgba(23,32,46,.16);transition:transform .25s ease}
+.s2{transform:translate(24px,10px) rotate(5deg)}
+.s1{transform:rotate(-1.5deg)}
+.stack:hover .s2{transform:translate(36px,6px) rotate(8deg)}
+.doc h3{margin:0;font-size:21px;line-height:1.3;font-weight:600;max-width:32ch}
+.doc p{margin:8px 0 0;color:var(--muted);font-size:15.5px;max-width:58ch}
+.eds{display:flex;align-items:center;gap:8px;margin-top:14px;flex-wrap:wrap}
+.edl{font-size:14px;color:var(--muted);margin-right:2px}
+.ed{font:inherit;font-size:14px;display:inline-flex;align-items:center;gap:7px;padding:5px 12px;border-radius:999px;border:1.5px solid var(--line);background:transparent;color:var(--ink);cursor:pointer;min-height:34px}
+.ed.on{border-color:var(--ink)}
+.sw{width:12px;height:12px;border-radius:50%}
+.acts{display:flex;flex-wrap:wrap;gap:12px;margin-top:18px}
+.btn{font:inherit;font-size:15px;font-weight:600;border-radius:4px;padding:10px 20px;min-height:44px;cursor:pointer}
+.read{background:var(--yellow);color:#17202E;border:2px solid var(--yellow)}
+.read:hover{background:#EFD600;border-color:#EFD600}
+.save{background:transparent;color:var(--ink);border:2px solid var(--line)}
+.save:hover{border-color:var(--sky)}
+.btn{text-decoration:none;display:inline-flex;align-items:center;justify-content:center}
+.contact{background:var(--navy-d);color:#fff;margin-top:24px}
+.contact .wrap{display:grid;grid-template-columns:1fr auto;gap:28px;align-items:center;padding-top:44px;padding-bottom:calc(44px + env(safe-area-inset-bottom,0px))}
+.contact h2{margin:0;font-size:26px;font-weight:600}
+.contact p{margin:8px 0 0;color:#C9D6EC;max-width:50ch}
+.ctas{display:flex;flex-wrap:wrap;gap:12px}
+.cta{display:inline-flex;align-items:center;min-height:46px;padding:10px 20px;border-radius:4px;text-decoration:none;font-weight:600;font-size:15px}
+.cta.call{background:var(--yellow);color:#17202E}
+.cta.mail,.cta.web{border:2px solid rgba(255,255,255,.45);color:#fff}
+.cta.mail:hover,.cta.web:hover{border-color:#fff}
+.viewer{position:fixed;inset:0;z-index:20;background:#0A1220;display:none;flex-direction:column}
+.viewer.open{display:flex}
+.vbar{display:flex;align-items:center;gap:10px;padding:calc(10px + env(safe-area-inset-top,0px)) 14px 10px;background:#0A1220;color:#fff;border-bottom:1px solid #1F2C44}
+.vbar h2{margin:0;flex:1;min-width:0;font-size:15px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.vbar .btn{padding:7px 14px;min-height:40px;font-size:14px}
+.vclose{background:transparent;color:#fff;border:2px solid #44526A}
+.vpages{flex:1;overflow:auto;-webkit-overflow-scrolling:touch;padding:18px 12px calc(28px + env(safe-area-inset-bottom,0px));display:grid;gap:18px;justify-items:center;align-content:start}
+.vpages img{width:min(100%,920px);height:auto;box-shadow:0 8px 28px rgba(0,0,0,.45)}
+.toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:#17202E;color:#fff;padding:10px 16px;border-radius:4px;font-size:14px;z-index:30;display:none;max-width:90vw;text-align:center}
+@media (max-width:860px){
+ .about .wrap{grid-template-columns:1fr;gap:28px}
+ .topic{grid-template-columns:1fr;gap:22px;padding:36px 0}
+ .tside{position:static}
+ .contact .wrap{grid-template-columns:1fr}
+}
+@media (max-width:600px){
+ .wrap{padding:0 16px}
+ .top img{height:54px}
+ .tcontact .em{display:none}
+ .hero .wrap{padding-top:40px;padding-bottom:42px}
+ .hero .lede{font-size:16.5px}
+ .doc{grid-template-columns:1fr;gap:18px;padding:22px 18px 20px}
+ .stack{width:132px;margin-left:4px}
+ .acts .btn{flex:1 1 140px}
+}
+@media (prefers-reduced-motion: reduce){.sheet{transition:none}}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <img src="assets/logo.png" alt="Safegassystems.com, since 2014. Consultation for cryogenic and compressed gas applications.">
+  <nav class="tcontact" aria-label="Contact"><a href="tel:+19704859155">970-485-9155</a><a class="em" href="mailto:info@safegassystems.com">info@safegassystems.com</a></nav>
+</div></header>
+<section class="hero"><div class="wrap">
+  <h1>Brochures from Safe Gas Systems</h1>
+  <p class="lede">Thanks for stopping by. Every brochure from our booth is here to read on your phone or save as a PDF.</p>
+  <nav class="chips" aria-label="Brochure topics"><a class="chip" href="#bulk-oxygen">Medical bulk oxygen</a><a class="chip" href="#controls">Tank monitoring and control</a><a class="chip" href="#gas-detection">Gas detection and safety</a><a class="chip" href="#cryogenics">Cryogenics and liquid nitrogen</a></nav>
+</div></section>
+<section class="about" aria-labelledby="about-h"><div class="wrap">
+  <div>
+    <h2 id="about-h">About Safe Gas Systems</h2>
+    <p>Since 2014, Safe Gas Systems has designed, installed, and serviced cryogenic and compressed gas systems. Our certified technicians work on hospital bulk oxygen yards, medical gas supply, gas detection, and liquid nitrogen systems, from planning and permitting through inspection, repair, and training.</p>
+  </div>
+  <ul class="facts">
+    <li><div><strong>Since 2014</strong><span>Consultation for cryogenic and compressed gas applications</span></div></li>
+    <li><div><strong>Code-driven work</strong><span>Technicians endorsed under NFPA 55, NFPA 99, 21 CFR 211.25, and ASME</span></div></li>
+    <li><div><strong>Serving facilities across the US</strong><span>Service plans with priority scheduling and 24-hour emergency support</span></div></li>
+  </ul>
+</div></section>
+<main class="wrap"><section class="topic" id="bulk-oxygen" aria-labelledby="bulk-oxygen-h">
+  <div class="tside"><h2 id="bulk-oxygen-h">Medical bulk oxygen</h2><p>Service, inspection, and repair for the bulk oxygen systems hospitals and oxygen providers depend on.</p></div>
+  <div class="tdocs"><article class="doc" data-doc="mbo-blue">
+  <button class="stack" type="button" data-open aria-label="Read Technical Services for Medical Bulk Oxygen Systems">
+    <img class="sheet s2" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" width="612" height="792" alt="" decoding="async">
+    <img class="sheet s1" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" width="612" height="792" alt="Cover of Technical Services for Medical Bulk Oxygen Systems" decoding="async">
+  </button>
+  <div class="dtext">
+    <h3>Technical Services for Medical Bulk Oxygen Systems</h3>
+    <p>Inspections, preventive maintenance, repairs, and Vital or Elite service plans for hospital bulk oxygen tanks, vaporizers, and central supply.</p>
+    <div class="eds" role="group" aria-label="Cover edition"><span class="edl">Cover</span><button type="button" class="ed on" data-ed="mbo-blue" aria-pressed="true"><span class="sw" style="background:#25408F"></span>Blue</button><button type="button" class="ed" data-ed="mbo-magenta" aria-pressed="false"><span class="sw" style="background:#9B1B5A"></span>Magenta</button></div>
+    <div class="acts">
+      <button class="btn read" type="button" data-open>Read brochure</button>
+      <a class="btn save" data-pdf href="#" download>Download PDF</a>
+    </div>
+  </div>
+</article><article class="doc" data-doc="providers">
+  <button class="stack" type="button" data-open aria-label="Read Technical Services for Bulk Medical Oxygen Providers">
+    <img class="sheet s2" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" width="612" height="792" alt="" decoding="async">
+    <img class="sheet s1" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" width="612" height="792" alt="Cover of Technical Services for Bulk Medical Oxygen Providers" decoding="async">
+  </button>
+  <div class="dtext">
+    <h3>Technical Services for Bulk Medical Oxygen Providers</h3>
+    <p>Support for oxygen providers: delivery tankers, central supply systems, cylinder fill plants, oxygen analyzers, and supply alarms.</p>
+    
+    <div class="acts">
+      <button class="btn read" type="button" data-open>Read brochure</button>
+      <a class="btn save" data-pdf href="#" download>Download PDF</a>
+    </div>
+  </div>
+</article></div>
+</section><section class="topic" id="controls" aria-labelledby="controls-h">
+  <div class="tside"><h2 id="controls-h">Tank monitoring and control</h2><p>One panel to watch levels, pressures, and alarms across every bulk tank and reserve.</p></div>
+  <div class="tdocs"><article class="doc" data-doc="tankmaster">
+  <button class="stack" type="button" data-open aria-label="Read SGS Safe Touch Pro, TankMaster™ Edition">
+    <img class="sheet s2" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" width="612" height="792" alt="" decoding="async">
+    <img class="sheet s1" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" width="612" height="792" alt="Cover of SGS Safe Touch Pro, TankMaster™ Edition" decoding="async">
+  </button>
+  <div class="dtext">
+    <h3>SGS Safe Touch Pro, TankMaster™ Edition</h3>
+    <p>A UL Listed, SIL 2-rated 12" touchscreen panel for bulk oxygen tanks, with reserve switchover, purity monitoring, and alarm integration.</p>
+    
+    <div class="acts">
+      <button class="btn read" type="button" data-open>Read brochure</button>
+      <a class="btn save" data-pdf href="#" download>Download PDF</a>
+    </div>
+  </div>
+</article></div>
+</section><section class="topic" id="gas-detection" aria-labelledby="gas-detection-h">
+  <div class="tside"><h2 id="gas-detection-h">Gas detection and safety</h2><p>Detection systems designed around your hazards, airflow, and the codes your inspector will check.</p></div>
+  <div class="tdocs"><article class="doc" data-doc="gasdet">
+  <button class="stack" type="button" data-open aria-label="Read Gas Detection System Design & Sensor Placement">
+    <img class="sheet s2" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" width="612" height="792" alt="" decoding="async">
+    <img class="sheet s1" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" width="612" height="792" alt="Cover of Gas Detection System Design & Sensor Placement" decoding="async">
+  </button>
+  <div class="dtext">
+    <h3>Gas Detection System Design & Sensor Placement</h3>
+    <p>Hazard mapping, airflow analysis, and sensor placement for oxygen deficiency, flammable, and toxic gases, with documentation ready for the AHJ.</p>
+    
+    <div class="acts">
+      <button class="btn read" type="button" data-open>Read brochure</button>
+      <a class="btn save" data-pdf href="#" download>Download PDF</a>
+    </div>
+  </div>
+</article></div>
+</section><section class="topic" id="cryogenics" aria-labelledby="cryogenics-h">
+  <div class="tside"><h2 id="cryogenics-h">Cryogenics and liquid nitrogen</h2><p>Equipment and services for labs, food plants, and facilities that store and use cryogenic fluids.</p></div>
+  <div class="tdocs"><article class="doc" data-doc="ln2">
+  <button class="stack" type="button" data-open aria-label="Read Services for Users of Liquid Nitrogen and Other Cryogenic Fluids">
+    <img class="sheet s2" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" width="612" height="792" alt="" decoding="async">
+    <img class="sheet s1" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" width="612" height="792" alt="Cover of Services for Users of Liquid Nitrogen and Other Cryogenic Fluids" decoding="async">
+  </button>
+  <div class="dtext">
+    <h3>Services for Users of Liquid Nitrogen and Other Cryogenic Fluids</h3>
+    <p>Vacuum insulated piping, dewar filling, ODH monitoring, cryogenic freezers, and full support from planning to training.</p>
+    
+    <div class="acts">
+      <button class="btn read" type="button" data-open>Read brochure</button>
+      <a class="btn save" data-pdf href="#" download>Download PDF</a>
+    </div>
+  </div>
+</article><article class="doc" data-doc="o2cryo">
+  <button class="stack" type="button" data-open aria-label="Read Services for Users of Bulk Oxygen and Other Cryogenic Fluids">
+    <img class="sheet s2" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" width="612" height="792" alt="" decoding="async">
+    <img class="sheet s1" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" width="612" height="792" alt="Cover of Services for Users of Bulk Oxygen and Other Cryogenic Fluids" decoding="async">
+  </button>
+  <div class="dtext">
+    <h3>Services for Users of Bulk Oxygen and Other Cryogenic Fluids</h3>
+    <p>Storage vessels, vacuum insulated piping, and services for facilities that run bulk oxygen alongside other cryogenic fluids.</p>
+    
+    <div class="acts">
+      <button class="btn read" type="button" data-open>Read brochure</button>
+      <a class="btn save" data-pdf href="#" download>Download PDF</a>
+    </div>
+  </div>
+</article></div>
+</section></main>
+<section class="contact" aria-labelledby="contact-h"><div class="wrap">
+  <div>
+    <h2 id="contact-h">Talk to our team</h2>
+    <p>Questions about a system, a quote, or a service plan? Call or email and a Safe Gas Systems specialist will get back to you.</p>
+  </div>
+  <div class="ctas">
+    <a class="cta call" href="tel:+19704859155">Call 970-485-9155</a>
+    <a class="cta mail" href="mailto:info@safegassystems.com">Email us</a>
+    <a class="cta web" href="https://www.safegassystems.com" target="_blank" rel="noopener">safegassystems.com</a>
+  </div>
+</div></section>
+<div class="viewer" id="viewer" role="dialog" aria-modal="true" aria-labelledby="vtitle">
+  <div class="vbar"><h2 id="vtitle"></h2><a class="btn read" id="vsave" href="#" download>Download PDF</a><button class="btn vclose" type="button" id="vclose">Close</button></div>
+  <div class="vpages" id="vpages"></div>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script>
+const DOCS={
+ "mbo-blue": {
+  "title": "Technical Services for Medical Bulk Oxygen Systems",
+  "pages": [
+   "assets/pages/mbo-blue-p1.jpg",
+   "assets/pages/mbo-blue-p2.jpg"
+  ],
+  "pdf": "brochures/SGS_Medical_Bulk_Oxygen_Services_Blue.pdf"
+ },
+ "mbo-magenta": {
+  "title": "Technical Services for Medical Bulk Oxygen Systems",
+  "pages": [
+   "assets/pages/mbo-magenta-p1.jpg",
+   "assets/pages/mbo-magenta-p2.jpg"
+  ],
+  "pdf": "brochures/SGS_Medical_Bulk_Oxygen_Services_Magenta.pdf"
+ },
+ "providers": {
+  "title": "Technical Services for Bulk Medical Oxygen Providers",
+  "pages": [
+   "assets/pages/providers-p1.jpg",
+   "assets/pages/providers-p2.jpg"
+  ],
+  "pdf": "brochures/SGS_Bulk_Medical_Oxygen_Providers.pdf"
+ },
+ "tankmaster": {
+  "title": "SGS Safe Touch Pro, TankMaster\u2122 Edition",
+  "pages": [
+   "assets/pages/tankmaster-p1.jpg",
+   "assets/pages/tankmaster-p2.jpg"
+  ],
+  "pdf": "brochures/SGS_Safe_Touch_Pro_TankMaster.pdf"
+ },
+ "gasdet": {
+  "title": "Gas Detection System Design & Sensor Placement",
+  "pages": [
+   "assets/pages/gasdet-p1.jpg",
+   "assets/pages/gasdet-p2.jpg"
+  ],
+  "pdf": "brochures/SGS_Gas_Detection_System_Design.pdf"
+ },
+ "ln2": {
+  "title": "Services for Users of Liquid Nitrogen and Other Cryogenic Fluids",
+  "pages": [
+   "assets/pages/ln2-p1.jpg",
+   "assets/pages/ln2-p2.jpg"
+  ],
+  "pdf": "brochures/SGS_Liquid_Nitrogen_Cryogenic_Services.pdf"
+ },
+ "o2cryo": {
+  "title": "Services for Users of Bulk Oxygen and Other Cryogenic Fluids",
+  "pages": [
+   "assets/pages/o2cryo-p1.jpg",
+   "assets/pages/o2cryo-p2.jpg"
+  ],
+  "pdf": "brochures/SGS_Bulk_Oxygen_Cryogenic_Fluids.pdf"
+ }
+};
+const viewer=document.getElementById('viewer'),vpages=document.getElementById('vpages'),vtitle=document.getElementById('vtitle'),vsave=document.getElementById('vsave');
+let current=null,lastFocus=null;
+function toast(t){const n=document.getElementById('toast');n.textContent=t;n.style.display='block';clearTimeout(toast.t);toast.t=setTimeout(()=>n.style.display='none',4000);}
+function openDoc(id){const d=DOCS[id];current=id;lastFocus=document.activeElement;vtitle.textContent=d.title;vpages.innerHTML='';
+ d.pages.forEach((src,i)=>{const im=document.createElement('img');im.src=src;im.alt=d.title+', page '+(i+1);vpages.appendChild(im);});
+ viewer.classList.add('open');document.body.style.overflow='hidden';vpages.scrollTop=0;vsave.href=d.pdf;vsave.setAttribute('download',d.pdf.split('/').pop());document.getElementById('vclose').focus();}
+function closeDoc(){viewer.classList.remove('open');document.body.style.overflow='';if(lastFocus)lastFocus.focus();}
+document.getElementById('vclose').addEventListener('click',closeDoc);
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&viewer.classList.contains('open'))closeDoc();});
+document.querySelectorAll('.doc').forEach(card=>{
+ const setDoc=id=>{const d=DOCS[id];card.dataset.doc=id;card.querySelector('.s1').src=d.pages[0];card.querySelector('.s2').src=d.pages[1];
+  const a=card.querySelector('[data-pdf]');a.href=d.pdf;a.setAttribute('download',d.pdf.split('/').pop());};
+ setDoc(card.dataset.doc);
+ card.querySelectorAll('[data-open]').forEach(b=>b.addEventListener('click',()=>openDoc(card.dataset.doc)));
+ card.querySelectorAll('.ed').forEach(b=>b.addEventListener('click',()=>{setDoc(b.dataset.ed);
+  card.querySelectorAll('.ed').forEach(x=>{const on=x===b;x.classList.toggle('on',on);x.setAttribute('aria-pressed',on?'true':'false');});}));
+});
+</script>
+</body>
+</html>
